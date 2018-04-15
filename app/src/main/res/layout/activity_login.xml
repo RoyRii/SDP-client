@@ -37,7 +37,8 @@
             android:textColor="@color/font_color"
             android:textColorHint="@color/font_color"
             android:padding="@dimen/_8sdp"
-            android:gravity="left"/>
+            android:gravity="left"
+            />
 
         <EditText
             android:id="@+id/password"
