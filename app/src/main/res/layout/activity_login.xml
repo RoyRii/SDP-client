@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:background="#e5ecee"
             android:hint="Username or e-mail"
-            android:textSize="@dimen/_14sdp"
+             android:textSize="@dimen/_14sdp"
             android:textColor="@color/font_color"
             android:textColorHint="@color/font_color"
             android:padding="@dimen/_8sdp"
