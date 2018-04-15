@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/popup_icon"
+    android:layout_marginBottom="@dimen/_40sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/login_popup_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.2"
+        android:text="Good day, Roy !"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_2sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.1"
+        android:text="We recommend first to collect and analyze new data to produce better results.
+Thanks!"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_45sdp"
+        android:layout_marginRight="@dimen/_45sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:id="@+id/popup_ok"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/submit_order"
+            android:layout_marginTop="@dimen/_2sdp"/>
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:background="@color/font_color"></View>
+
+        <ImageView
+            android:id="@+id/popup_no"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cancel_icon"
+            android:layout_marginTop="@dimen/_2sdp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

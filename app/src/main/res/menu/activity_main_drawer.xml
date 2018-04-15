@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_tweets"
+            android:icon="@drawable/tweets"
+            android:title="Tweet Retrieving" />
+        <item
+            android:id="@+id/nav_process"
+            android:icon="@drawable/process"
+            android:title="Data Pre-processing" />
+        <item
+            android:id="@+id/nav_retweets"
+            android:icon="@drawable/retweet"
+            android:title="Most retweeted" />
+
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/like"
+            android:title="Most favorite" />
+
+    </group>
+
+    <group
+        android:id="@+id/bottom">
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/info"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Log out" />
+    </group>
+
+</menu>

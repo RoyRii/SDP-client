@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@null">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_90sdp"
+        android:orientation="horizontal"
+        android:padding="@dimen/_15sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:background="@color/toolbar"
+            android:gravity="center"/>
+
+            <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#836a83"
+                    android:alpha="0.43">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="item"
+                            android:textColor="@color/white"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"/>
+
+                        <TextView
+                            android:id="@+id/count"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="count"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13sdp"/>
+
+                        <ImageView
+                            android:id="@+id/sentiment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/sentiment"
+                            android:scaleX="0.65"
+                            android:scaleY="0.65"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/_5sdp"/>
+
+                        <ImageView
+                            android:id="@+id/search"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/google"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/_3sdp"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<View-->
+        <!--android:layout_width="@dimen/_200sdp"-->
+        <!--android:layout_height="@dimen/_1sdp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@color/light_grey"-->
+        <!--android:layout_marginTop="@dimen/_3sdp"/>-->
+</LinearLayout>
